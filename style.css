@@ -1,0 +1,123 @@
+body{
+ display: flex;
+}
+
+
+aside {
+  width:20%;
+  background-color: #ccc;
+  font-size :1.5em;
+  flex-direction : column ;
+  box-sizing: border-box;
+  float: left;
+  padding-top: 50px;
+  border: 1px solid black;
+ }
+.img{
+  padding: 20px;
+}
+
+
+.dash-board{
+  padding: 20px;
+}
+.dash-board:hover {
+  background-color:#ececec;
+}
+
+.user {
+  padding: 20px;
+}
+.user:hover {
+  background-color:#ececec;
+}
+.medi-data {
+  padding: 20px;
+}
+.medi-data:hover {
+  background-color:#ececec;
+}
+.typist {
+  padding: 20px;
+}
+.typist:hover {
+  background-color:#ececec;
+}
+.campaign {
+  padding: 20px;
+}
+.campaign:hover {
+  background-color:#ececec;
+}
+.segment {
+  padding: 20px;
+}
+.segment:hover {
+  background-color:#ececec;
+}
+.home {
+  padding: 20px;
+}
+.home:hover {
+  background-color:#ececec;
+}
+.admin-member {
+  padding: 20px;
+}
+.admin-member:hover {
+  background-color:#ececec;
+}
+.setting {
+  padding: 20px;
+}
+.setting:hover {
+  background-color:#ececec;
+}
+.under{
+  text-decoration-line: none;
+  color:black;
+}
+
+
+
+main{
+  width: 80%;
+  border: 1px solid black;
+  box-sizing: border-box; 
+  float: right;
+  background-color: #ccc;
+  
+}
+.dash-title{
+  background-color: #ccc;
+  
+  padding-left: 1em;
+}
+.main-wrapper{
+  padding-left: 20px;
+  padding-top: 30px;
+  background-color: #ececec;
+  box-sizing: border-box;
+}
+
+.summary-today{
+  background-color: white;
+  display:flex;
+  box-sizing: border-box; 
+  width: 95%;
+  height: 10em;
+}
+
+.newby{
+  border-right: 1px solid black;
+  width   : 33%; 
+}
+
+.dau{
+  border-right: 1px solid black;
+  width: 33%;
+}
+
+.new-prescipt{
+  width: 33%;
+}
