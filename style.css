@@ -1,5 +1,6 @@
 body{
  display: flex;
+ 
 }
 
 
@@ -86,7 +87,6 @@ main{
   box-sizing: border-box; 
   float: right;
   background-color: #ccc;
-  
 }
 .dash-title{
   background-color: #ccc;
@@ -108,6 +108,13 @@ main{
   height: 10em;
 }
 
+.today-icon{
+
+  background-color: #ccc;
+  border-radius: 4px;
+  color: white;
+}
+
 .newby{
   border-right: 1px solid black;
   width   : 33%; 
@@ -120,4 +127,122 @@ main{
 
 .new-prescipt{
   width: 33%;
+}
+
+
+.user-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50%, auto));
+}
+.user-box1{
+  border: 1px solid black;
+  background-color: white;
+}
+.user-box2{
+  border: 1px solid black;
+  background-color: white;
+}
+.user-box3{
+  border: 1px solid black;
+  background-color: white;
+}
+
+.user-box4{
+  border: 1px solid black;
+  background-color: white;
+}
+.user-box5{
+  border: 1px solid black;
+  background-color: white;
+}
+.user-box6{
+  border: 1px solid black;
+  background-color: white;
+}
+.user-box7{
+  border: 1px solid black;
+  background-color: white;
+}
+
+
+.prescript-boxes{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50%, auto));
+}
+.prescript-box1{
+  border: 1px solid black;
+  background-color: white;
+}
+.prescript-box2{
+  border: 1px solid black;
+  background-color: white;
+}
+.prescript-box3{
+  border: 1px solid black;
+  background-color: white;
+}
+
+.prescript-box4{
+  border: 1px solid black;
+  background-color: white;
+}
+
+.app-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50%, auto));
+}
+.app-box1{
+  border: 1px solid black;
+  background-color: white;
+}
+.app-box2{
+  border: 1px solid black;
+  background-color: white;
+}
+.app-box3{
+  border: 1px solid black;
+  background-color: white;
+}
+
+.app-box4{
+  border: 1px solid black;
+  background-color: white;
+}
+.app-box5{
+  border: 1px solid black;
+  background-color: white;
+}
+.app-box6{
+  border: 1px solid black;
+  background-color: white;
+}
+.app-box7{
+  border: 1px solid black;
+  background-color: white;
+}
+.app-box8{
+  border: 1px solid black;
+  background-color: white;
+}
+
+.medical-boxes{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50%, auto));
+}
+.medical-box1{
+  border: 1px solid black;
+  background-color: white;
+}
+.medical-box2{
+  border: 1px solid black;
+  background-color: white;
+}
+.medical-box3{
+  border: 1px solid black;
+  background-color: white;
+}
+
+.medical-box4{
+  border: 1px solid black;
+  background-color: white;
 }
